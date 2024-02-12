@@ -1,0 +1,43 @@
+/* Name: Nagwinderpal Singh
+   Student ID: 202108199 */
+   
+main {
+    background-color: #CAF0F8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    background-color: #ffffff;
+    color: #333333;
+    border: 2px solid #023E8A;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 380px;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}

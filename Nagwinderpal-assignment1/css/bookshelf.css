@@ -1,0 +1,35 @@
+/* Name: Nagwinderpal Singh
+   Student ID: 202108199 */
+
+.book-container {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; 
+    margin-bottom: 20px; 
+    width: 300px; 
+    max-width: 100%; 
+    overflow: hidden; 
+}
+
+
+.book {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.book img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px; /* Add rounded edges to book cover images */
+}
+
+.book h2 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.book p {
+    margin-top: 5px;
+}
